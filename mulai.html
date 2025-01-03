@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Mengimpor pustaka CSS Bootstrap versi 5.3 untuk memberikan styling modern dan responsif -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/styles/flappybird.css">
+    <!-- Mengimpor file CSS kustom yang berisi styling tambahan untuk game -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Mengimpor pustaka jQuery versi 3.6 untuk mempermudah manipulasi DOM, animasi, dan event handling -->
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Mengimpor pustaka JavaScript Bootstrap untuk komponen interaktif seperti modal atau tooltip -->
+</head>
+<body class="bg-primary text-white text-center">
+    <!-- Elemen body: Bagian utama dari halaman -->
+    <!-- bg-primary: Memberikan latar belakang biru (kelas dari Bootstrap) -->
+    <!-- text-white: Memberikan warna teks putih -->
+    <!-- text-center: Menyelaraskan semua teks ke tengah secara horizontal -->
+
+    <div class="container py-5">
+        <!-- Kontainer utama untuk game -->
+        <!-- container: Kelas Bootstrap untuk memberikan margin otomatis di kedua sisi -->
+        <!-- py-5: Memberikan padding vertikal sebesar 5 unit -->
+
+        <h1 class="mb-4">Flappy Bird Game</h1>
+        <!-- Judul halaman game -->
+        <!-- mb-4: Memberikan margin bawah sebesar 4 unit -->
+
+        <canvas id="board" class="border rounded"></canvas>
+        <!-- Elemen canvas untuk area permainan -->
+        <!-- border: Menambahkan border di sekitar canvas -->
+        <!-- rounded: Membuat sudut border menjadi melengkung -->
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="js/flappybird.js"></script>
+    <!-- Mengimpor file JavaScript khusus yang berisi logika permainan -->
+</body>
+</html>

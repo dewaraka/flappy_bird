@@ -1,0 +1,17 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Mengatur font utama halaman dengan font 'Courier New' */
+    text-align: center; /* Menyelaraskan semua teks di tengah secara horizontal */
+    margin: 0; /* Menghapus margin default dari body */
+    padding: 0; /* Menghapus padding default dari body */
+    background-color: #007bff; /* Memberikan warna latar belakang biru sesuai warna utama Bootstrap */
+}
+
+#board {
+    background-image: url("../images/flappybirdbg.png"); /* Menambahkan gambar sebagai latar belakang canvas */
+    background-size: cover; /* Membuat gambar latar belakang menutupi seluruh area canvas */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar latar belakang */
+    display: block; /* Mengubah elemen menjadi blok untuk memastikan tata letak terpusat */
+    margin: 20px auto; /* Memberikan margin vertikal 20px dan secara horizontal memusatkan elemen canvas */
+    border: 2px solid white; /* Menambahkan border putih dengan ketebalan 2px di sekitar canvas */
+    border-radius: 10px; /* Membuat sudut border menjadi melengkung dengan radius 10px */
+}
